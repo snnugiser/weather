@@ -96,8 +96,8 @@ temp=${temp#*\"index_ag\":\"*}
 #感冒指数
 index_ag=${temp%\"\}\}}
 subject="天气预报"
-maintext=$city_cn"今天到明天,"$weather1,$temp1,$wind1$fl1,$index_d
-maintext=$maintext"明天到后天,"$weather2,$temp2,$wind2$fl2,$index_48_d
+maintext=$city_cn"今天到明天,"$weather1,$temp1,$wind1,$index_d
+maintext=$maintext"明天到后天,"$weather2,$temp2,$wind2,$index_48_d
 maintext=$maintext"第三天到第六天天气分别为:"
 maintext=$maintext$weather3","$temp3";"
 maintext=$maintext$weather4","$temp4";"
