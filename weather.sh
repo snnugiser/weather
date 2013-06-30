@@ -7,8 +7,8 @@ source /home/GISer/.bashrc
 #export PATH=$PATH:/home/GISer
 #export PATH=$PATH:/opt/msmtp/bin
 
-city="湖北武汉"
-city_code=101200101 #默认城市为武汉
+city="江苏南京"
+city_code=101190101 #默认城市为南京
 read city_all < city.code
 OLD_IFS="$IFS"
 IFS="|"
